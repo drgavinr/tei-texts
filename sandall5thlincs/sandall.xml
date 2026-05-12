@@ -9,7 +9,7 @@
                 <author><forename>Thomas</forename> <forename>Edward</forename> <surname>Sandall</surname></author>
             </titleStmt>
             <editionStmt>
-                <edition n="2.5">Version 2.5</edition>
+                <edition n="2.6">Version 2.6</edition>
             </editionStmt>
             <publicationStmt>
                 <authority><forename>Gavin</forename> <surname>Robinson</surname></authority>
@@ -47,7 +47,7 @@
                     <p>Corrections have been supplied for all errors found so there is currently no need for <gi>sic</gi> tags.</p>
                 </correction>
                 <normalization>
-                    <p>The project aims to represent the original text as closely as possible. Place names have been kept as given in the text even if they are wrong, and have only been corrected for internal consistency. Some changes to style and unctuation have been made.</p>
+                    <p>The project aims to represent the original text as closely as possible. Place names have been kept as given in the text even if they are wrong, and have only been corrected for internal consistency. Some changes to style and punctuation have been made.</p>
                     <p>Italic text is not represented in this edition, but occurs only rarely in the source text.</p>
                     <p>Running heads and page numbers have been omitted.</p>
                     <p>Dashes which serve no useful purpose have been deleted. Dashes used for &quot;ditto&quot; in index have been silently replaced by a copy of the preceeding index term.</p>
@@ -69,7 +69,7 @@
                 <namespace name="http://www.tei-c.org/ns/1.0">
                     <tagUsage gi="p" occurs="419">Used to mark paragraphs represented in original text by line break and indent.</tagUsage>
                     <tagUsage gi="quote" occurs="12">Used to mark blockquotes. These are usually whole documents or substantial parts of documents such as orders and memos.</tagUsage>
-                    <tagUsage gi="corr" occurs="12">Used to mark corrections of obvious typographical errors for internal consistency. The corrected form is the form used in the rest of the book, which is not necessarily a correct spelling by present day standards. <gi>sic</gi> tags are not used: if text is clearly in error, it has been corrected.</tagUsage>
+                    <tagUsage gi="corr" occurs="13">Used to mark corrections of obvious typographical errors for internal consistency. The corrected form is the form used in the rest of the book, which is not necessarily a correct spelling by present day standards. <gi>sic</gi> tags are not used: if text is clearly in error, it has been corrected.</tagUsage>
                     <tagUsage gi="rs" occurs="164" withId="158">Used to mark strings which refer to a specific individual person who is not explicitly named. If the person can be identified, @type=&quot;person&quot; and a standardized form of the name is provided in @key only for internal use in constructing an index of people. If the person cannot be identified then @type=&quot;unk_person&quot; and @key contains a description of the person. @ref is an external identifier at Wikidata, Lives of the First World War, or Commonwealth War Graves Commission if the person can be matched with confidence.</tagUsage>
                     <tagUsage gi="address" occurs="1">Used only to mark the author's address given at the end of the preface.</tagUsage>
                     <tagUsage gi="addrLine" occurs="2">Used only in the author's address given at the end of the preface.</tagUsage>
@@ -116,6 +116,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2026-05-12">Corrected Sousatre to Souastre on page 73 and updated tag usage for extra <gi>corr</gi> tag. Changed version to 2.6 to reflect this change.</change>
             <change when="2025-06-22">Changed version to 2.5. Added <gi>gi</gi> tags to header. Updated documentation in some <gi>tagUsage</gi> tags.</change>
             <change when="2025-06-18">Checked and updated tagsDecl: added missing <gi>tagUsage</gi>; ensured that @occurs is correct for every <gi>tagUsage</gi>; added @withId where needed. Also removed one redundant <gi>expan</gi> tag from text and corrected an erroneous <gi>country</gi> tag to <gi>date</gi> tag (<gi>country</gi> tags are no longer used anywhere).</change>
             <change when="2022-12-25">Used python script to add @ref to people and places as far as possible, and changed values of some @key. Changed version to 2.4.</change>
@@ -2788,7 +2789,7 @@
                         <abbr>E.</abbr>
                         <expan>East</expan>
                     </choice> of <placeName key="Souastre, France" ref="https://www.wikidata.org/entity/Q382038" xml:id="place276">Souastre</placeName>, between the
-                        <placeName key="Bienvillers-au-Bois, France" ref="https://www.wikidata.org/entity/Q998666" xml:id="place277">Bienvillers</placeName>-<placeName key="Souastre, France" ref="https://www.wikidata.org/entity/Q382038" xml:id="place278">Souastre</placeName> and <placeName key="Foncquevillers, France" ref="https://www.wikidata.org/entity/Q1031945" xml:id="place279">Fonquevillers</placeName>-<placeName key="Souastre, France" ref="https://www.wikidata.org/entity/Q382038" xml:id="place280">Sousatre</placeName>
+                        <placeName key="Bienvillers-au-Bois, France" ref="https://www.wikidata.org/entity/Q998666" xml:id="place277">Bienvillers</placeName>-<placeName key="Souastre, France" ref="https://www.wikidata.org/entity/Q382038" xml:id="place278">Souastre</placeName> and <placeName key="Foncquevillers, France" ref="https://www.wikidata.org/entity/Q1031945" xml:id="place279">Fonquevillers</placeName>-<placeName key="Souastre, France" ref="https://www.wikidata.org/entity/Q382038" xml:id="place280"><corr>Souastre</corr></placeName>
                     roads. A forward party of 50 was sent up at noon to this position with bombs,
                     tools, and reserve rations, while a reserve ration of water was sent up to the
                     Midland trench behind <placeName key="Foncquevillers, France" ref="https://www.wikidata.org/entity/Q1031945" xml:id="place281">Fonquevillers</placeName>.

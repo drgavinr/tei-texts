@@ -205,7 +205,7 @@ blockquote{
     </xsl:template>
     
     <xsl:template match="tei:placeName">
-        <a><xsl:attribute name="id" select="./@xml:id"/><xsl:if test="./@key"><xsl:attribute name="href" select="concat('place-index.html?n=', ./@key)"/><xsl:attribute name="title" select="./@key"/></xsl:if><xsl:apply-templates/></a>
+        <a><xsl:attribute name="id" select="./@xml:id"/><xsl:if test="./@key"><xsl:attribute name="href" select="concat('place-index.html#', ./@key)"/><xsl:attribute name="title" select="./@key"/></xsl:if><xsl:apply-templates/></a>
         <xsl:if test="descendant::tei:pb">
             [<a><xsl:attribute name="id" select="descendant::tei:pb[1]/@xml:id"/>
                 <xsl:if test="descendant::tei:pb[1]/@facs"><xsl:attribute name="href" select="concat('images/', descendant::tei:pb[1]/@facs)"/><xsl:value-of select="descendant::tei:pb[1]/@xml:id"/></xsl:if></a>] 
