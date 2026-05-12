@@ -4,7 +4,10 @@ Official history of an infantry battalion of the British Army in the First World
 
 Page scans can be viewed at the [Internet Archive](https://archive.org/details/sandall5thlincs/mode/1up).
 
-HTML version can be viewed at [https://www.sandall.drgavinrobinson.uk/](https://www.sandall.drgavinrobinson.uk/).
+HTML version can be viewed at:
+
+- [https://drgavinr.github.io/tei-texts/sandall/](https://drgavinr.github.io/tei-texts/sandall/) (permanently archived at Github).
+- [https://www.sandall.drgavinrobinson.uk/](https://www.sandall.drgavinrobinson.uk/) (not guaranteed to be permanently archived).
 
 ## Contents
 
