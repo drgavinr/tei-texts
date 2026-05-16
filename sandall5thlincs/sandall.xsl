@@ -26,7 +26,7 @@
                         <xsl:if test="@facs"><a class="pageimage"><xsl:attribute name="href" select="./@facs"/>[view page image]</a></xsl:if>
                     </xsl:for-each>
                         
-                        <p><xsl:value-of select="//tei:edition[1]"/>. Last updated: <xsl:value-of select="//tei:change[1]/@when"/>.</p>
+                        <p><xsl:value-of select="//tei:edition[1]"/>. Last updated: <xsl:value-of select="format-date(//tei:change[1]/@when, '[D1] [MNn] [Y]', 'en', (), () )"/>.</p>
                         
                         <xsl:call-template name="contents"/>
                         
