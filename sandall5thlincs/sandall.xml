@@ -7,9 +7,10 @@
                 <title>Sandall's History of 1/5th Lincolnshire Regiment: A Digital Edition</title>
                 <principal><forename>Gavin</forename> <surname>Robinson</surname></principal>
                 <author><forename>Thomas</forename> <forename>Edward</forename> <surname>Sandall</surname></author>
+                <author><forename>George</forename> <forename>Harris</forename> <surname>Teall</surname></author>
             </titleStmt>
             <editionStmt>
-                <edition n="2.6">Version 2.6</edition>
+                <edition n="2.7">Version 2.7</edition>
             </editionStmt>
             <publicationStmt>
                 <authority><forename>Gavin</forename> <surname>Robinson</surname></authority>
@@ -116,6 +117,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2026-09-04">Added <gi>author</gi> element for George Harris Teall in <gi>titleStmt</gi> as he had been omitted in error. Changed version to 2.7 to reflect this change.</change>
             <change when="2026-05-12">Corrected Sousatre to Souastre on page 73 and updated tag usage for extra <gi>corr</gi> tag. Changed version to 2.6 to reflect this change.</change>
             <change when="2025-06-22">Changed version to 2.5. Added <gi>gi</gi> tags to header. Updated documentation in some <gi>tagUsage</gi> tags.</change>
             <change when="2025-06-18">Checked and updated tagsDecl: added missing <gi>tagUsage</gi>; ensured that @occurs is correct for every <gi>tagUsage</gi>; added @withId where needed. Also removed one redundant <gi>expan</gi> tag from text and corrected an erroneous <gi>country</gi> tag to <gi>date</gi> tag (<gi>country</gi> tags are no longer used anywhere).</change>
