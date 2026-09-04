@@ -21,21 +21,23 @@ body{
 
 h1 {
 text-align : left;
-font-size:1.6rem;
+font-size:1.2rem;
 border-bottom: 1px solid #000;
+margin: 0;
+padding: 0;
 }
 
 h2{
 text-align : left;
-font-size:1.3rem;
+font-size:1.2rem;
 }
 
 
 
 .nav{
 	text-align : center;
-	padding-bottom:3em;
-	padding-top:2em;
+	padding:0;
+	margin:0;
 }
 
 
