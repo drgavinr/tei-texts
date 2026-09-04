@@ -1,0 +1,1 @@
+HTML source files for intermediate transcript. To view web pages in browser, see [https://github.com/drgavinr/tei-texts/tree/main/docs/wharton-intermediate/](https://github.com/drgavinr/tei-texts/tree/main/docs/wharton-intermediate/).
