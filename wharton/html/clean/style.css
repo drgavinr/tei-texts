@@ -1,0 +1,41 @@
+body{
+    /* make Safari use system default font size */
+    font: -apple-system-body;
+	padding:20px;
+	font-family: Arial, sans-serif;
+	/* no max-width here as only needed in landscape */
+}
+
+/* make Safari use system default font size */
+@supports (font: -apple-system-body) and (not (-webkit-touch-callout: default)) {
+  :root {
+    font-size: 100%;
+  }
+}
+
+/* set max-width only in landscape (nothing needed for portrait) */
+@media only screen and (orientation: landscape) {
+  body {
+    max-width: 25em;
+  }
+}
+
+
+h1, h2 {
+text-align : left;
+font-size:1.2rem;
+margin: 0;
+padding: 0;
+}
+
+.nav{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.about{
+    margin: 0;
+    padding: 0;
+}
+
