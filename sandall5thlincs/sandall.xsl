@@ -14,6 +14,8 @@
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                            <meta name="text-scale" content="scale" />
                         <style type="text/css" media="screen">
                             @import url(sandall-style.css );
                         </style>
@@ -50,6 +52,8 @@
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                            <meta name="text-scale" content="scale" />
                         <style type="text/css" media="screen">
                             @import url(sandall-style.css );
                         </style>
@@ -71,10 +75,26 @@
 
         <!-- Write CSS file. -->
         <xsl:result-document href="html/sandall-style.css" format="text" xml:space=""><xsl:text>body{
-	margin-left:2em;
-	font-size : 1em;
-	width:30em;
+    /* make Safari use system default font size */
+    font: -apple-system-body;
+	padding-left:2em;
+	/* no max-width here as only needed in landscape */
 }
+
+/* make Safari use system default font size */
+@supports (font: -apple-system-body) and (not (-webkit-touch-callout: default)) {
+  :root {
+    font-size: 100%;
+  }
+}
+
+/* set max-width only in landscape (nothing needed for portrait) */
+@media only screen and (orientation: landscape) {
+  body {
+    max-width: 25em;
+  }
+}
+
 
 h1, h2{
 	text-align : left;
@@ -82,20 +102,10 @@ h1, h2{
 }
 
 
-p{
-   width:30em;
-	margin-right:10em;
-	
-}
-
-blockquote{
-	width: 25em;
-}
-
 .nav{
 	text-align : center;
-	margin-bottom:3em;
-	margin-top:2em;
+	padding-bottom:3em;
+	padding-top:2em;
 }
 
 
@@ -259,6 +269,8 @@ blockquote{
             <html>
                 <head>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                        <meta name="text-scale" content="scale" />
                     <style type="text/css" media="screen">
                         @import url(sandall-style.css );
                     </style>
@@ -291,6 +303,8 @@ blockquote{
             <html>
                 <head>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                        <meta name="text-scale" content="scale" />
                     <style type="text/css" media="screen">
                         @import url(sandall-style.css );
                     </style>
