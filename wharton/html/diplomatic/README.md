@@ -1,0 +1,1 @@
+HTML source files for diplomatic transcript. To view web pages in browser, see [https://github.com/drgavinr/tei-texts/tree/main/docs/wharton-diplomatic/](https://github.com/drgavinr/tei-texts/tree/main/docs/wharton-diplomatic/).
