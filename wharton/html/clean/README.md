@@ -1,0 +1,1 @@
+HTML source files for clean transcript. To view web pages in browser, see [https://github.com/drgavinr/tei-texts/tree/main/docs/wharton-clean/](https://github.com/drgavinr/tei-texts/tree/main/docs/wharton-clean/).
