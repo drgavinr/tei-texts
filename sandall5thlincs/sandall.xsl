@@ -77,7 +77,7 @@
         <xsl:result-document href="html/sandall-style.css" format="text" xml:space=""><xsl:text>body{
     /* make Safari use system default font size */
     font: -apple-system-body;
-	padding-left:2em;
+	padding:20px;
 	/* no max-width here as only needed in landscape */
 }
 
@@ -95,17 +95,25 @@
   }
 }
 
-
-h1, h2{
-	text-align : left;
-	
+h1 {
+text-align : left;
+font-size:1.2rem;
+border-bottom: 1px solid #000;
+margin: 0;
+padding: 0;
 }
+
+h2{
+text-align : left;
+font-size:1.2rem;
+}
+
 
 
 .nav{
 	text-align : center;
-	padding-bottom:3em;
-	padding-top:2em;
+	padding:0;
+	margin:0;
 }
 
 
