@@ -67,7 +67,7 @@ padding: 0;
                     <style type="text/css" media="screen">
                         @import url(style.css );
                     </style>
-                    <title>Wharton Letters: Semi-Diplomatic</title></head>
+                    <title>Wharton Letters: Diplomatic</title></head>
                 <body class="indexpage">
                     <xsl:call-template name="aboutlink"/>
                     <h1>Nehemiah Wharton's Letters: Diplomatic Transcript</h1>
