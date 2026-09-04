@@ -47,6 +47,13 @@ padding: 0;
     font-family: Arial, sans-serif;
 }
 
+/* set max-width only in landscape, only for index page (nothing needed for portrait) */
+@media only screen and (orientation: landscape) {
+  .indexpage {
+    max-width: 25em;
+  }
+}
+
 </xsl:text>
         </xsl:result-document>
         
